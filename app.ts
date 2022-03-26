@@ -1,8 +1,11 @@
 import express from 'express'
+import dotenv from 'dotenv'
+dotenv.config()
+
+import addRoutes from './startup/routes'
 
 const app = express()
-const port = 3000
 
-app.listen(port, () => {
-    console.log(`Listening to port ${port}`)
-})
+addRoutes(app)
+
+export default app
