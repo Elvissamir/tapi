@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import { MongoMemoryServer } from 'mongodb-memory-server'
 
 class MongodbHandler implements DBHandlerI {
-    private mongoServer
+    private mongoServer: MongoMemoryServer
 
     constructor () {
         this.mongoServer = new MongoMemoryServer()
