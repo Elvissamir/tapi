@@ -1,0 +1,29 @@
+
+	Requirements: 
+		- Products: 
+			- Create
+			- Read
+			- Update
+			- Delete
+		
+		- Users: 
+			- Login
+			- Register
+			- Read 
+			- Update
+			
+		- Orders:
+			- Create
+			- Read
+			- Update
+			- Delete
+
+	Business Workflow: 
+	
+	- The user selects products 
+	- The user pays for the products
+	- The user notifies the payment
+	- An order is created for each different products
+	- 
+	
+	

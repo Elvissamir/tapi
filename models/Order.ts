@@ -1,7 +1,13 @@
+import Item from "./Item"
+import PaymentDetails from "./PaymentDetails"
+
 export default interface Order {
-    userId: string | number 
-    productId: string | number
-    numberOfItems: number
-    total: number
-    date: Date
+    id: string | number 
+    customerId: string | number 
+    dateCreated: Date
+    dateFullfilled: Date
+    status: string
+    shipTo: string 
+    paymentDetails: PaymentDetails 
+    items: Item[]
 }
