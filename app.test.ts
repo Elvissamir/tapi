@@ -9,3 +9,4 @@ describe('GET Test', () => {
         expect(response.text).toBe('The server is up and running.')
     })
 })
+

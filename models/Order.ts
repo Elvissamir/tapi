@@ -1,9 +1,10 @@
 import Item from "./Item"
+import OrderCustomer from "./OrderCustomer"
 import PaymentDetails from "./PaymentDetails"
 
 export default interface Order {
     id: string | number 
-    customerId: string | number 
+    customer: OrderCustomer
     dateCreated: Date
     dateFullfilled: Date
     status: string
