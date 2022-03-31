@@ -14,7 +14,7 @@ describe('User Routes', () => {
     })
 
     describe('POST /', () => {
-        it('Registers a user', async () => {
+        it('Guests can register as new users', async () => {
             const userData = {
                 first_name: 'fname',
                 last_name: 'lname',

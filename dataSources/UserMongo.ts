@@ -1,6 +1,5 @@
 import User from "../entities/User";
-import { userRules } from "../rules/UserRules";
-import { UserModelI } from "../rules/UserModelI";
+import { userRules } from "../rules/userRules";
 import { Schema, model } from "mongoose";
 
 const schemaRules = {

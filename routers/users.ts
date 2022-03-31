@@ -14,7 +14,7 @@ router.post('/', async (req, res) => {
     // set x-auth-token header to the token
     // return created user 
 
-    return res.send('response')    
+    return res.send('response') 
 })
 
 export default router
